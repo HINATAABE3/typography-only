@@ -1,3 +1,48 @@
 body {
     background: rgb(247, 243, 209);
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+:root {
+  --color1: #ec3b52;
+  --color2: #6F9C6D;
+  --color3: #AED0EE;
+  --color4: #FFFAF0;
+  --primaryfont : "Playfair Display", serif;
+}
+
+body {
+  font-family: var(--primaryfont);
+  
+  background: rgb(247, 243, 209);
+}
+
+h1 {
+  color: var(--color1);
+  text-align: left;
+}
+
+
+main {
+  width: 70%;
+  margin: 0 auto;
+  padding: 70px;
+  
+  background: #ffffff54;
+}
+
+main {
+  position: relative;
+  
+  border-bottom: 32px solid var(--color4);
+}
+
+span {
+  color: var(--color2);
+  font-size: 1.6rem;
+  
+  
+}
+
