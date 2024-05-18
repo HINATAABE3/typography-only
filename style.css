@@ -8,7 +8,7 @@ body {
 :root {
   --color1: #ec3b52;
   --color2: #6F9C6D;
-  --color3: #AED0EE;
+  --color3: #67afee;
   --color4: #FFFAF0;
   --primaryfont : "Playfair Display", serif;
 }
@@ -22,6 +22,8 @@ body {
 h1 {
   color: var(--color1);
   text-align: left;
+  border-left: solid 5px var(--color3);
+  padding-left: 15px;
 }
 
 
