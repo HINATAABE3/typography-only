@@ -22,7 +22,7 @@ body {
 h1 {
   color: var(--color1);
   text-align: left;
-  border-left: solid 5px var(--color3);
+  border-left: solid 2px var(--color3);
   padding-left: 15px;
 }
 
